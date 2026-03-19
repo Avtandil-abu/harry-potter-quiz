@@ -43,20 +43,38 @@ function App() {
   }
 
   // 2. LOADING / AD SCREEN
+  // 2. LOADING / AD SCREEN
+  // 2. LOADING / AD SCREEN
   if (showResult && isCalculating) {
     return (
-      <div className="min-h-screen bg-slate-900 flex flex-col items-center justify-center text-white p-4 text-center animate-pulse">
-        <h2 className="text-2xl mb-4 text-slate-400 font-mono italic">"Hmm, difficult... very difficult..."</h2>
-        <div className="w-20 h-20 border-4 border-yellow-500 border-t-transparent rounded-full animate-spin mb-8"></div>
-        <div className="p-8 bg-slate-800 rounded-2xl border-2 border-dashed border-slate-700 text-slate-500 max-w-xs">
-          <p className="font-bold tracking-widest text-xs mb-2">[ SPONSORED CONTENT ]</p>
-          <div className="w-full h-32 bg-slate-700 rounded mb-2 flex items-center justify-center italic text-sm">Ad Banner Placeholder</div>
-          <p className="text-[10px]">Your result is being calculated...</p>
+      <div className="min-h-screen bg-slate-900 flex flex-col items-center justify-center text-white p-4 text-center">
+        {/* --- ეს ნაწილი ციმციმებს (Thoughts & Loader) --- */}
+        <div className="animate-pulse mb-10 flex flex-col items-center">
+          <h2 className="text-2xl mb-4 text-slate-400 font-mono italic text-sm">"Hmm, difficult... very difficult..."</h2>
+          <div className="w-16 h-16 border-4 border-yellow-500 border-t-transparent rounded-full animate-spin mb-4"></div>
+          <p className="text-[10px] text-yellow-500 uppercase tracking-widest italic">Sorting hat is making the final decision...</p>
+        </div>
+
+        {/* --- ეს ნაწილი მყარადაა (Sponsored Content) --- */}
+        <div className="p-6 bg-slate-800 rounded-2xl border border-yellow-500/20 max-w-xs shadow-2xl relative z-50">
+          <p className="font-bold tracking-widest text-[9px] mb-3 text-yellow-500 uppercase opacity-60">Sponsored Magic</p>
+          <div className="w-full h-24 bg-slate-700 rounded-xl mb-3 flex items-center justify-center overflow-hidden border border-slate-600">
+            <span className="text-4xl hover:scale-110 transition-transform">🪄</span>
+          </div>
+          <p className="text-xs mb-3 font-medium">Need your own Magic Wand? Get the best deals on Amazon!</p>
+          {/* რეალური, "კლიკებადი" ღილაკი */}
+          <a
+            href="https://www.amazon.com/s?k=harry+potter+wand&tag=YOUR_TAG" // აქ მერე შენს აფილიატ ლინკს ჩასვამ
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-yellow-600 text-white px-6 py-2 rounded-lg font-bold text-[10px] uppercase hover:bg-yellow-500 transition-colors cursor-pointer"
+          >
+            Check Price ✨
+          </a>
         </div>
       </div>
     );
   }
-
   // 3. RESULT SCREEN
   if (showResult && !isCalculating) {
     const winner = getWinner();
@@ -76,8 +94,13 @@ function App() {
           <p className="text-slate-300 mb-8 italic text-sm px-4">"{houseData[winner].desc}"</p>
 
           <div className="flex flex-col gap-3 w-full mb-8">
-            <a href="#" target="_blank" className="bg-[#FFDD00] hover:bg-[#ffea5e] text-black font-extrabold py-4 rounded-xl transition-all flex items-center justify-center gap-2 shadow-xl transform hover:-translate-y-1">
-              ☕ Buy Me a Coffee
+            <a
+              href="https://ko-fi.com/avtandilabuashvili44"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 bg-[#29abe0] text-white px-5 py-2 rounded-full font-bold hover:bg-[#2395c4] transition-all shadow-lg"
+            >
+              ☕ Support me on Ko-fi
             </a>
             <div className="grid grid-cols-4 gap-2 mt-2">
               <button onClick={() => window.open(`https://www.facebook.com/sharer/sharer.php?u=${window.location.href}`, '_blank')} className="bg-[#1877F2] p-3 rounded-xl hover:opacity-80 transition-all font-bold text-xs">FB</button>
