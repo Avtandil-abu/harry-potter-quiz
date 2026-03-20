@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: './', // ეს ხაზი ეუბნება საიტს, რომ ფაილები ნებისმიერ ფოლდერში იპოვოს
+  base: '/harry-potter-quiz/', // ეს ხაზი ეუბნება საიტს, რომ ფაილები ნებისმიერ ფოლდერში იპოვოს
 })
