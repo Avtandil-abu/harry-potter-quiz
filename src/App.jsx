@@ -230,10 +230,14 @@ function App() {
             <button onClick={() => generateIDCard(winner)} className="w-full bg-yellow-600 hover:bg-yellow-500 text-white font-bold py-3 rounded-xl text-sm transition-all uppercase shadow-lg border-b-2 border-yellow-800">📥 Get Official Certificate</button>
           </div>
 
-          <a href="https://ko-fi.com/avtandilabuashvili44" target="_blank" className="block w-full bg-[#29abe2] py-4 rounded-2xl font-black mb-6 text-sm shadow-xl hover:scale-105 transition-transform uppercase tracking-wider">
-            Enjoyed the magic? Buy me a Butterbeer! 🍺
+          <a
+            href="https://ko-fi.com/avtandilabuashvili44"
+            target="_blank"
+            className="block w-full py-4 rounded-xl bg-gradient-to-r from-amber-500/20 to-orange-600/20 border border-amber-500/30 text-amber-200 hover:from-amber-500/30 hover:to-orange-600/30 transition-all font-bold mb-6 text-sm shadow-xl hover:scale-[1.02] active:scale-95 text-center uppercase tracking-widest group"
+          >
+            <span className="inline-block group-hover:animate-bounce mr-2">🍺</span>
+            Enjoyed the magic? Buy me a Butterbeer!
           </a>
-
           <div className="grid grid-cols-4 gap-3 mb-8">
             <button onClick={() => window.open(`https://www.facebook.com/sharer/sharer.php?u=${window.location.href}`)} className="bg-[#1877F2] py-3 rounded-xl font-bold text-xs">FB</button>
             <button onClick={() => window.open(`https://twitter.com/intent/tweet?text=I'm a ${winner}!`)} className="bg-black py-3 rounded-xl font-bold text-xs border border-white/10">X</button>
