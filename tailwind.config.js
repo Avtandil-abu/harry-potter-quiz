@@ -7,5 +7,11 @@ export default {
     theme: {
         extend: {},
     },
+
+    corePlugins: {
+        backgroundOpacity: false,
+        textOpacity: false,
+        borderOpacity: false,
+    },
     plugins: [],
 }

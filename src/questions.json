@@ -1,0 +1,577 @@
+[
+    {
+        "id": 1,
+        "question": "Which of these traits do you value most?",
+        "image": "/images/1.jpg",
+        "options": [
+            {
+                "text": "Bravery and Courage",
+                "house": "Gryffindor"
+            },
+            {
+                "text": "Ambition and Cunning",
+                "house": "Slytherin"
+            },
+            {
+                "text": "Intelligence and Wit",
+                "house": "Ravenclaw"
+            },
+            {
+                "text": "Loyalty and Hard Work",
+                "house": "Hufflepuff"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "question": "A student is being bullied. What is your reaction?",
+        "image": "/images/2.jpg",
+        "options": [
+            {
+                "text": "Step in and fight them.",
+                "house": "Gryffindor"
+            },
+            {
+                "text": "Report it to a teacher.",
+                "house": "Ravenclaw"
+            },
+            {
+                "text": "Comfort the victim later.",
+                "house": "Hufflepuff"
+            },
+            {
+                "text": "Use it to your advantage.",
+                "house": "Slytherin"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "question": "Which magical creature would you want as a companion?",
+        "image": "/images/3.jpg",
+        "options": [
+            {
+                "text": "Phoenix",
+                "house": "Gryffindor"
+            },
+            {
+                "text": "Dragon",
+                "house": "Slytherin"
+            },
+            {
+                "text": "Owl",
+                "house": "Ravenclaw"
+            },
+            {
+                "text": "Hippogriff",
+                "house": "Hufflepuff"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "question": "What is your favorite subject at Hogwarts?",
+        "image": "/images/4.jpg",
+        "options": [
+            {
+                "text": "Defense Against the Dark Arts",
+                "house": "Gryffindor"
+            },
+            {
+                "text": "Potions",
+                "house": "Slytherin"
+            },
+            {
+                "text": "Charms or History",
+                "house": "Ravenclaw"
+            },
+            {
+                "text": "Herbology",
+                "house": "Hufflepuff"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "question": "You find an ancient, locked book. You...",
+        "image": "/images/5.jpg",
+        "options": [
+            {
+                "text": "Try to pick the lock.",
+                "house": "Slytherin"
+            },
+            {
+                "text": "Research how to open it.",
+                "house": "Ravenclaw"
+            },
+            {
+                "text": "Ask a friend for help.",
+                "house": "Hufflepuff"
+            },
+            {
+                "text": "Break it open!",
+                "house": "Gryffindor"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "question": "Which path leads to your greatest desire?",
+        "image": "/images/6.jpg",
+        "options": [
+            {
+                "text": "The path of Glory.",
+                "house": "Gryffindor"
+            },
+            {
+                "text": "The path of Knowledge.",
+                "house": "Ravenclaw"
+            },
+            {
+                "text": "The path of Power.",
+                "house": "Slytherin"
+            },
+            {
+                "text": "The path of Kindness.",
+                "house": "Hufflepuff"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "question": "What is your greatest fear?",
+        "image": "/images/7.jpg",
+        "options": [
+            {
+                "text": "Being weak.",
+                "house": "Slytherin"
+            },
+            {
+                "text": "Being ignorant.",
+                "house": "Ravenclaw"
+            },
+            {
+                "text": "Being a coward.",
+                "house": "Gryffindor"
+            },
+            {
+                "text": "Being alone.",
+                "house": "Hufflepuff"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "question": "If you could win one prize, it would be:",
+        "image": "/images/8.jpg",
+        "options": [
+            {
+                "text": "The Quidditch Cup.",
+                "house": "Gryffindor"
+            },
+            {
+                "text": "The House Cup.",
+                "house": "Hufflepuff"
+            },
+            {
+                "text": "A Nobel Prize in Magic.",
+                "house": "Ravenclaw"
+            },
+            {
+                "text": "The Triwizard Cup.",
+                "house": "Slytherin"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "question": "Your best friend is accused of a crime. You:",
+        "image": "/images/9.jpg",
+        "options": [
+            {
+                "text": "Stand by them no matter what.",
+                "house": "Hufflepuff"
+            },
+            {
+                "text": "Investigate the truth.",
+                "house": "Ravenclaw"
+            },
+            {
+                "text": "Defend them with magic.",
+                "house": "Gryffindor"
+            },
+            {
+                "text": "Make sure you aren't blamed too.",
+                "house": "Slytherin"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "question": "Where would you spend most of your time?",
+        "image": "/images/10.jpg",
+        "options": [
+            {
+                "text": "The Common Room fire.",
+                "house": "Gryffindor"
+            },
+            {
+                "text": "The Library.",
+                "house": "Ravenclaw"
+            },
+            {
+                "text": "The Dungeons.",
+                "house": "Slytherin"
+            },
+            {
+                "text": "The Kitchens.",
+                "house": "Hufflepuff"
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "question": "Which wand core would choose you?",
+        "image": "/images/11.jpg",
+        "options": [
+            {
+                "text": "Dragon Heartstring",
+                "house": "Slytherin"
+            },
+            {
+                "text": "Phoenix Feather",
+                "house": "Gryffindor"
+            },
+            {
+                "text": "Unicorn Hair",
+                "house": "Hufflepuff"
+            },
+            {
+                "text": "Thestral Hair",
+                "house": "Ravenclaw"
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "question": "A troll is loose! What do you do?",
+        "image": "/images/12.jpg",
+        "options": [
+            {
+                "text": "Go look for it.",
+                "house": "Gryffindor"
+            },
+            {
+                "text": "Find a safe place.",
+                "house": "Hufflepuff"
+            },
+            {
+                "text": "Come up with a plan to trap it.",
+                "house": "Ravenclaw"
+            },
+            {
+                "text": "Use the chaos to sneak away.",
+                "house": "Slytherin"
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "question": "What kind of reputation do you want?",
+        "image": "/images/13.jpg",
+        "options": [
+            {
+                "text": "The Hero",
+                "house": "Gryffindor"
+            },
+            {
+                "text": "The Mastermind",
+                "house": "Slytherin"
+            },
+            {
+                "text": "The Wise One",
+                "house": "Ravenclaw"
+            },
+            {
+                "text": "The Loyal Friend",
+                "house": "Hufflepuff"
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "question": "You see a gold coin on the floor. You:",
+        "image": "/images/14.jpg",
+        "options": [
+            {
+                "text": "Leave it there.",
+                "house": "Hufflepuff"
+            },
+            {
+                "text": "Take it, it's mine now.",
+                "house": "Slytherin"
+            },
+            {
+                "text": "Try to find who dropped it.",
+                "house": "Gryffindor"
+            },
+            {
+                "text": "Analyze if it's cursed first.",
+                "house": "Ravenclaw"
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "question": "If you could talk to animals, which one?",
+        "image": "/images/15.jpg",
+        "options": [
+            {
+                "text": "Snakes",
+                "house": "Slytherin"
+            },
+            {
+                "text": "Birds",
+                "house": "Ravenclaw"
+            },
+            {
+                "text": "Dogs",
+                "house": "Hufflepuff"
+            },
+            {
+                "text": "Lions",
+                "house": "Gryffindor"
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "question": "Which magical shop is your first stop?",
+        "image": "/images/16.jpg",
+        "options": [
+            {
+                "text": "Ollivanders Wands",
+                "house": "Ravenclaw"
+            },
+            {
+                "text": "Borgin and Burkes",
+                "house": "Slytherin"
+            },
+            {
+                "text": "Honeydukes Sweets",
+                "house": "Hufflepuff"
+            },
+            {
+                "text": "Quality Quidditch Supplies",
+                "house": "Gryffindor"
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "question": "How do you want to be remembered?",
+        "image": "/images/17.jpg",
+        "options": [
+            {
+                "text": "By your achievements.",
+                "house": "Slytherin"
+            },
+            {
+                "text": "By your wisdom.",
+                "house": "Ravenclaw"
+            },
+            {
+                "text": "By your kindness.",
+                "house": "Hufflepuff"
+            },
+            {
+                "text": "By your bold actions.",
+                "house": "Gryffindor"
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "question": "What is the most important magic?",
+        "image": "/images/18.jpg",
+        "options": [
+            {
+                "text": "Love",
+                "house": "Hufflepuff"
+            },
+            {
+                "text": "Power",
+                "house": "Slytherin"
+            },
+            {
+                "text": "Wisdom",
+                "house": "Ravenclaw"
+            },
+            {
+                "text": "Willpower",
+                "house": "Gryffindor"
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "question": "A potion turns you into an animal. What?",
+        "image": "/images/19.jpg",
+        "options": [
+            {
+                "text": "Stag",
+                "house": "Gryffindor"
+            },
+            {
+                "text": "Cat",
+                "house": "Ravenclaw"
+            },
+            {
+                "text": "Badger",
+                "house": "Hufflepuff"
+            },
+            {
+                "text": "Serpent",
+                "house": "Slytherin"
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "question": "Which element do you feel most connected to?",
+        "image": "/images/20.jpg",
+        "options": [
+            {
+                "text": "Fire",
+                "house": "Gryffindor"
+            },
+            {
+                "text": "Water",
+                "house": "Slytherin"
+            },
+            {
+                "text": "Air",
+                "house": "Ravenclaw"
+            },
+            {
+                "text": "Earth",
+                "house": "Hufflepuff"
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "question": "You are late for class. You...",
+        "image": "/images/13.jpg",
+        "options": [
+            {
+                "text": "Apologize sincerely.",
+                "house": "Hufflepuff"
+            },
+            {
+                "text": "Sneak in silently.",
+                "house": "Slytherin"
+            },
+            {
+                "text": "Run in and explain the delay.",
+                "house": "Gryffindor"
+            },
+            {
+                "text": "Hope the teacher doesn't notice.",
+                "house": "Ravenclaw"
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "question": "Which cloak would you wear?",
+        "image": "/images/1.jpg",
+        "options": [
+            {
+                "text": "Invisibility Cloak",
+                "house": "Gryffindor"
+            },
+            {
+                "text": "Velvet Formal Cloak",
+                "house": "Slytherin"
+            },
+            {
+                "text": "Traveling Cloak",
+                "house": "Hufflepuff"
+            },
+            {
+                "text": "Ancient Scholar Cloak",
+                "house": "Ravenclaw"
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "question": "What is the best way to handle a secret?",
+        "image": "/images/5.jpg",
+        "options": [
+            {
+                "text": "Keep it forever.",
+                "house": "Hufflepuff"
+            },
+            {
+                "text": "Use it when needed.",
+                "house": "Slytherin"
+            },
+            {
+                "text": "Tell it only to those who should know.",
+                "house": "Ravenclaw"
+            },
+            {
+                "text": "Protect it with your life.",
+                "house": "Gryffindor"
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "question": "Which landscape is most peaceful?",
+        "image": "/images/6.jpg",
+        "options": [
+            {
+                "text": "Mountain peaks",
+                "house": "Ravenclaw"
+            },
+            {
+                "text": "A warm forest",
+                "house": "Hufflepuff"
+            },
+            {
+                "text": "A storm over the ocean",
+                "house": "Slytherin"
+            },
+            {
+                "text": "A castle tower",
+                "house": "Gryffindor"
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "question": "What makes a person great?",
+        "image": "/images/17.jpg",
+        "options": [
+            {
+                "text": "Their mind.",
+                "house": "Ravenclaw"
+            },
+            {
+                "text": "Their heart.",
+                "house": "Hufflepuff"
+            },
+            {
+                "text": "Their courage.",
+                "house": "Gryffindor"
+            },
+            {
+                "text": "Their impact.",
+                "house": "Slytherin"
+            }
+        ]
+    }
+]
