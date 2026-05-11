@@ -41,7 +41,7 @@ const PhotoCropper = ({ image, onCropDone, onCancel, house }) => {
                         rotate={0}
                     />
                     <img
-                        src={`/images/uniforms/${house?.toLowerCase()}.png`}
+                        src={`./images/uniforms/${house?.toLowerCase()}.png`}
                         className="absolute inset-0 w-full h-full object-cover pointer-events-none"
                         style={{ zIndex: 10 }}
                         alt="Uniform"

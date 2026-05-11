@@ -14,10 +14,10 @@ import PremiumModal from './components/PremiumModal';
 import PhotoCropper from './components/PhotoCropper';
 
 const houseDetails = {
-  Gryffindor: { color: "#740001", accent: "#C09338", description: "You demonstrate exceptional bravery, daring, and chivalry.", seal: "/images/seals/gryffindor.png" },
-  Slytherin: { color: "#1A472A", accent: "#AAAAAA", description: "Your ambition, resourcefulness, and leadership are unmatched.", seal: "/images/seals/slytherin.png" },
-  Ravenclaw: { color: "#0E1A40", accent: "#946B2D", description: "Your mind is sharp and your thirst for knowledge is unquenchable.", seal: "/images/seals/ravenclaw.png" },
-  Hufflepuff: { color: "#ECB939", accent: "#372e29", description: "Your loyalty, patience, and fair play are exemplary.", seal: "/images/seals/hufflepuff.png" }
+  Gryffindor: { color: "#740001", accent: "#C09338", description: "You demonstrate exceptional bravery, daring, and chivalry.", seal: "./images/seals/gryffindor.png" },
+  Slytherin: { color: "#1A472A", accent: "#AAAAAA", description: "Your ambition, resourcefulness, and leadership are unmatched.", seal: "./images/seals/slytherin.png" },
+  Ravenclaw: { color: "#0E1A40", accent: "#946B2D", description: "Your mind is sharp and your thirst for knowledge is unquenchable.", seal: "./images/seals/ravenclaw.png" },
+  Hufflepuff: { color: "#ECB939", accent: "#372e29", description: "Your loyalty, patience, and fair play are exemplary.", seal: "./images/seals/hufflepuff.png" }
 };
 
 const smokeVariant = {
@@ -45,7 +45,7 @@ function App() {
   const [isCropping, setIsCropping] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  const ambientAudio = useRef(new Audio('/sounds/ambient.mp3'));
+  const ambientAudio = useRef(new Audio('./sounds/ambient.mp3'));
 
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
@@ -80,7 +80,7 @@ function App() {
       const winner = getWinner();
       setTimeout(() => {
         setIsCalculating(false);
-        new Audio(`/sounds/${winner.toLowerCase()}.mp3`).play().catch(() => { });
+        new Audio(`./sounds/${winner.toLowerCase()}.mp3`).play().catch(() => { });
       }, 3000);
     }
   }, [showResult, isCalculating]);
@@ -164,7 +164,7 @@ function App() {
   if (showResult && isCalculating) return (
     <div style={bgStyle} className="min-h-screen flex flex-col items-center justify-center text-white text-center">
       <h2 className="text-3xl mb-6 italic animate-pulse">"Hmm, difficult... let me see..."</h2>
-      <motion.img src="/images/sorting_hat.png" alt="Sorting Hat" className="w-24 h-24 mt-4" animate={{ rotate: 360, scale: [1, 1.1, 1] }} transition={{ duration: 2, repeat: Infinity, ease: "linear" }} />
+      <motion.img src="./images/sorting_hat.png" alt="Sorting Hat" className="w-24 h-24 mt-4" animate={{ rotate: 360, scale: [1, 1.1, 1] }} transition={{ duration: 2, repeat: Infinity, ease: "linear" }} />
     </div>
   );
 

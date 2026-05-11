@@ -2,7 +2,7 @@
     {
         "id": 1,
         "question": "Which of these traits do you value most?",
-        "image": "/images/1.jpg",
+        "image": "./images/1.jpg",
         "options": [
             {
                 "text": "Bravery and Courage",
@@ -25,7 +25,7 @@
     {
         "id": 2,
         "question": "A student is being bullied. What is your reaction?",
-        "image": "/images/2.jpg",
+        "image": "./images/2.jpg",
         "options": [
             {
                 "text": "Step in and fight them.",
@@ -48,7 +48,7 @@
     {
         "id": 3,
         "question": "Which magical creature would you want as a companion?",
-        "image": "/images/3.jpg",
+        "image": "./images/3.jpg",
         "options": [
             {
                 "text": "Phoenix",
@@ -71,7 +71,7 @@
     {
         "id": 4,
         "question": "What is your favorite subject at Hogwarts?",
-        "image": "/images/4.jpg",
+        "image": "./images/4.jpg",
         "options": [
             {
                 "text": "Defense Against the Dark Arts",
@@ -94,7 +94,7 @@
     {
         "id": 5,
         "question": "You find an ancient, locked book. You...",
-        "image": "/images/5.jpg",
+        "image": "./images/5.jpg",
         "options": [
             {
                 "text": "Try to pick the lock.",
@@ -117,7 +117,7 @@
     {
         "id": 6,
         "question": "Which path leads to your greatest desire?",
-        "image": "/images/6.jpg",
+        "image": "./images/6.jpg",
         "options": [
             {
                 "text": "The path of Glory.",
@@ -140,7 +140,7 @@
     {
         "id": 7,
         "question": "What is your greatest fear?",
-        "image": "/images/7.jpg",
+        "image": "./images/7.jpg",
         "options": [
             {
                 "text": "Being weak.",
@@ -163,7 +163,7 @@
     {
         "id": 8,
         "question": "If you could win one prize, it would be:",
-        "image": "/images/8.jpg",
+        "image": "./images/8.jpg",
         "options": [
             {
                 "text": "The Quidditch Cup.",
@@ -186,7 +186,7 @@
     {
         "id": 9,
         "question": "Your best friend is accused of a crime. You:",
-        "image": "/images/9.jpg",
+        "image": "./images/9.jpg",
         "options": [
             {
                 "text": "Stand by them no matter what.",
@@ -209,7 +209,7 @@
     {
         "id": 10,
         "question": "Where would you spend most of your time?",
-        "image": "/images/10.jpg",
+        "image": "./images/10.jpg",
         "options": [
             {
                 "text": "The Common Room fire.",
@@ -232,7 +232,7 @@
     {
         "id": 11,
         "question": "Which wand core would choose you?",
-        "image": "/images/11.jpg",
+        "image": "./images/11.jpg",
         "options": [
             {
                 "text": "Dragon Heartstring",
@@ -255,7 +255,7 @@
     {
         "id": 12,
         "question": "A troll is loose! What do you do?",
-        "image": "/images/12.jpg",
+        "image": "./images/12.jpg",
         "options": [
             {
                 "text": "Go look for it.",
@@ -278,7 +278,7 @@
     {
         "id": 13,
         "question": "What kind of reputation do you want?",
-        "image": "/images/13.jpg",
+        "image": "./images/13.jpg",
         "options": [
             {
                 "text": "The Hero",
@@ -301,7 +301,7 @@
     {
         "id": 14,
         "question": "You see a gold coin on the floor. You:",
-        "image": "/images/14.jpg",
+        "image": "./images/14.jpg",
         "options": [
             {
                 "text": "Leave it there.",
@@ -324,7 +324,7 @@
     {
         "id": 15,
         "question": "If you could talk to animals, which one?",
-        "image": "/images/15.jpg",
+        "image": "./images/15.jpg",
         "options": [
             {
                 "text": "Snakes",
@@ -347,7 +347,7 @@
     {
         "id": 16,
         "question": "Which magical shop is your first stop?",
-        "image": "/images/16.jpg",
+        "image": "./images/16.jpg",
         "options": [
             {
                 "text": "Ollivanders Wands",
@@ -370,7 +370,7 @@
     {
         "id": 17,
         "question": "How do you want to be remembered?",
-        "image": "/images/17.jpg",
+        "image": "./images/17.jpg",
         "options": [
             {
                 "text": "By your achievements.",
@@ -393,7 +393,7 @@
     {
         "id": 18,
         "question": "What is the most important magic?",
-        "image": "/images/18.jpg",
+        "image": "./images/18.jpg",
         "options": [
             {
                 "text": "Love",
@@ -416,7 +416,7 @@
     {
         "id": 19,
         "question": "A potion turns you into an animal. What?",
-        "image": "/images/19.jpg",
+        "image": "./images/19.jpg",
         "options": [
             {
                 "text": "Stag",
@@ -439,7 +439,7 @@
     {
         "id": 20,
         "question": "Which element do you feel most connected to?",
-        "image": "/images/20.jpg",
+        "image": "./images/20.jpg",
         "options": [
             {
                 "text": "Fire",
@@ -462,7 +462,7 @@
     {
         "id": 21,
         "question": "You are late for class. You...",
-        "image": "/images/13.jpg",
+        "image": "./images/13.jpg",
         "options": [
             {
                 "text": "Apologize sincerely.",
@@ -485,7 +485,7 @@
     {
         "id": 22,
         "question": "Which cloak would you wear?",
-        "image": "/images/1.jpg",
+        "image": "./images/1.jpg",
         "options": [
             {
                 "text": "Invisibility Cloak",
@@ -508,7 +508,7 @@
     {
         "id": 23,
         "question": "What is the best way to handle a secret?",
-        "image": "/images/5.jpg",
+        "image": "./images/5.jpg",
         "options": [
             {
                 "text": "Keep it forever.",
@@ -531,7 +531,7 @@
     {
         "id": 24,
         "question": "Which landscape is most peaceful?",
-        "image": "/images/6.jpg",
+        "image": "./images/6.jpg",
         "options": [
             {
                 "text": "Mountain peaks",
@@ -554,7 +554,7 @@
     {
         "id": 25,
         "question": "What makes a person great?",
-        "image": "/images/17.jpg",
+        "image": "./images/17.jpg",
         "options": [
             {
                 "text": "Their mind.",

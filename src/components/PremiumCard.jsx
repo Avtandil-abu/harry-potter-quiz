@@ -59,7 +59,7 @@ const PremiumCard = ({ userName, house, userImage, previewOnly = false }) => {
                         objectFit: 'cover', zIndex: 0
                     }} alt="User" />
                 )}
-                <img src={`/images/uniforms/${house.toLowerCase()}.png`} style={{
+                <img src={`./images/uniforms/${house.toLowerCase()}.png`} style={{
                     position: 'absolute', inset: 0,
                     width: '100%', height: '100%',
                     objectFit: 'cover', zIndex: 10,
@@ -94,7 +94,7 @@ const PremiumCard = ({ userName, house, userImage, previewOnly = false }) => {
                             {house}
                         </p>
                     </div>
-                    <img src={`/images/seals/${house.toLowerCase()}.png`} style={{ width: '48px', height: '48px', objectFit: 'contain' }} alt="Seal" />
+                    <img src={`./images/seals/${house.toLowerCase()}.png`} style={{ width: '48px', height: '48px', objectFit: 'contain' }} alt="Seal" />
                 </div>
             </div>
 
